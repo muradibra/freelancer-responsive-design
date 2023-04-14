@@ -199,6 +199,15 @@ header {
     color: #fff;
 }
 
+.about a {
+    transition: 0.5s;
+}
+
+.about a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 .paragraphs-about :first-child {
     margin-bottom: 10px;
 }
@@ -336,7 +345,7 @@ textarea {
 .icons i {
     border: 1px solid #fff;
     padding: 15px;
-    border-radius: 49%;
+    border-radius: 50%;
 }
 
 .about-freelancer p {
