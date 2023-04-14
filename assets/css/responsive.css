@@ -90,7 +90,7 @@ header {
 }
 
 .start-bootstrap-text-wrapper h1 {
-    font: 700 44px  'Montserrat', sans-serif;
+    font: 700 40px  'Montserrat', sans-serif;
     margin-bottom: 15px;
     color: #fff;
     text-align: center;
@@ -172,7 +172,7 @@ header {
 .about-section {
     padding: 6rem 0;
     background-color: rgb(26, 188, 156);
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .about {
