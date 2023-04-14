@@ -1,0 +1,141 @@
+@media(min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        transition: .8s;
+    }
+
+    li a:hover {
+        color: #1abc9c;
+
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 15px;
+    }
+    .card {
+        width: 48%;
+        
+    }
+    
+    .card img {
+        width: 100%;
+    }
+
+}
+
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    header {
+        z-index: 99;
+    }
+    
+    .header h2 {
+        font-size: 28px;
+    }
+
+    .start-bootstrap-text-wrapper h1 {
+        font: 700 64px  'Montserrat', sans-serif;
+        
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 15px;
+    }
+    .card {
+        width: 31%;
+    }
+
+    .card-plus i{
+        font-size: 90px;
+        color: #fff;
+    }
+    .card-plus:hover{
+        opacity: 0.7;
+    }
+    
+    .card img {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        outline: 0;
+        
+    }
+
+    textarea {
+        outline: 0;
+        width: 100%;
+    }
+
+    .paragraphs-about {
+        display: flex;
+        column-gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .location , .social-media , .about-freelancer {
+        width: 31%;
+    }
+
+}
+
+@media(min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* @media(min-width:1400px){
+    .container{
+        max-width: 1320px;
+    }
+} */
